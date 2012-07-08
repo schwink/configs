@@ -1,0 +1,8 @@
+[user]
+	name = Stephen Schwink
+	email = 
+[core]
+	editor = emacs
+
+[alias]
+cp = commit -a -m "cp"
