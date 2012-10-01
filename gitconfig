@@ -5,4 +5,10 @@
 	editor = emacs
 
 [alias]
-cp = commit -a -m "cp"
+  c = commit
+  co = checkout
+  cp = commit -am 'cp'
+  df = diff HEAD^ --name-only
+  ds = diff --stat
+  l = log --stat
+  s = show

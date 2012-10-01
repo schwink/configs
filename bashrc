@@ -16,5 +16,7 @@ export PS1="$Y\t$N $W"'$(__git_ps1 "(%s) ")'"$N$PROMPT_COLOR\u@\H$N:$C\w$N\n"'$C
 alias e='emacs'
 alias g='git'
 alias gs='git show -w'
+alias gf='git fetch'
+alias gr='git rebase origin/master'
+alias gri='git rebase -i origin/master'
 alias l='ls -l'
-
