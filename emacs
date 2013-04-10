@@ -1,4 +1,3 @@
-
 ;; Turn off the mysterious menu bar
 (menu-bar-mode -1)
 
@@ -9,16 +8,19 @@
   ;; If there is more than one, they won't work right.
  '(css-indent-offset 2)
  '(gud-gdb-command-name "gdb --annotate=1")
+ '(indent-tabs-mode nil)
  '(js2-allow-keywords-as-property-names nil)
  '(js2-basic-offset 2)
  '(js2-cleanup-whitespace t)
  '(large-file-warning-threshold nil)
  '(make-backup-files nil)
+ '(mode-require-final-newline t)
  '(mouse-wheel-mode t)
  '(mouse-wheel-progressive-speed nil)
  '(mouse-wheel-scroll-amount (quote (2 ((shift) . 1) ((control)))))
  '(paren-match-face (quote paren-face-match-light))
- '(paren-sexp-mode t))
+ '(paren-sexp-mode t)
+ '(standard-indent 2))
 
 (custom-set-faces
   ;; custom-set-faces was added by Custom.
