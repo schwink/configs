@@ -12,6 +12,7 @@
  '(js2-allow-keywords-as-property-names nil)
  '(js2-basic-offset 2)
  '(js2-cleanup-whitespace t)
+ '(column-number-mode t)
  '(large-file-warning-threshold nil)
  '(make-backup-files nil)
  '(mode-require-final-newline t)
