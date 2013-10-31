@@ -18,5 +18,8 @@ alias gb='git for-each-ref --sort=committerdate refs/heads/ --format="%(committe
 alias gs='git show -w'
 alias gf='git fetch'
 alias gr='git rebase origin/master'
+alias grs='git rebase origin/stable'
 alias gri='git rebase -i origin/master'
+alias gris='git rebase -i origin/stable'
+alias gru='git status --short -u | sed "s/\?\?//" | xargs rm -r'
 alias l='ls -l'
