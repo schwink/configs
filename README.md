@@ -1,4 +1,4 @@
 schwink
 =======
 
-Various config files
+Various config files for my developer environment
