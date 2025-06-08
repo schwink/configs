@@ -1,17 +1,20 @@
 [user]
-	name = Stephen Schwink
-	email = 
+name = Stephen Schwink
+email = stephen.schwink@gmail.com
+
 [core]
-	editor = emacs
+editor = emacs
+autocrlf = input
+
+[init]
+defaultBranch = main
+
+[commit]
+template = /Users/schwink/.gitmessage
 
 [alias]
-        c = commit
-        co = checkout
-        cp = commit -am 'cp'
-        df = diff HEAD^ --name-only
-        ds = diff --stat
-        l = log --stat
-        s = show
+cp = commit -am 'cp'
+sl = log --graph --all --decorate
 
 [color]
-	ui = auto
+ui = auto
