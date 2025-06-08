@@ -1,0 +1,14 @@
+{
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "git.openRepositoryInParentFolders": "always",
+    "workbench.colorTheme": "Default Light Modern",
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.formatOnSave": true,
+        "source.removeUnusedImports": true,
+    }
+}
